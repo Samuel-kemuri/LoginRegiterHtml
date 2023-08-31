@@ -1,0 +1,142 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: gray;
+        border-bottom: 2px solid D9D9D9;
+    }
+
+    main{
+        background-image: url(../Imagens/Background.jpg);
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: D9D9D9;
+    }
+
+    nav{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        padding-left: 50px;
+    }
+
+    .h3nav{
+        display: flex;
+        padding-left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: whitesmoke;
+    }
+
+    #titletop{
+        display: flex;
+        padding-right: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: whitesmoke;
+    }
+
+    #tela1{
+        display: flex;
+        padding-top: 240px;
+        padding-left: 40px;
+        padding-bottom: 320px;
+        padding-right: 40px;
+        background-color: D9D9D9;
+
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #textlogin1{    
+        color: FAFAFA;
+        font-size: 41;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        -webkit-text-stroke: 0.1px black;
+        margin-bottom: 20px;
+    }
+
+    .inputT1{
+        width:450px;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+
+    #textlogin2{
+        color: black;
+        font-size: 20;
+        font-family: initial;
+        
+    }
+
+    #divtextlogin2{
+        margin-bottom: 40px;
+    }
+
+    button{
+        width:140px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: 2BB2CF;
+        color: white;
+    }
+
+    #tela2{
+        display: flex;
+        margin-top: 140px;
+        padding-top: 40px;
+        margin-left: 0px;
+        padding-left: 40px;
+        margin-bottom: 280px;
+        padding-bottom: 40px;
+        margin-right: 00px;
+        padding-right: 40px;
+        border-radius: 30px;
+
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        border: 2px solid white;
+    }
+
+    #T2texlogin{
+        color: FAFAFA;
+        font-size: 41;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        -webkit-text-stroke: 0.1px black;
+        margin-bottom: 20px;
+    }
+
+    .t2Input{
+        width:450px;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
